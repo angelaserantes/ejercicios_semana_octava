@@ -14,6 +14,7 @@ public class Ejercicio6 {
             vidas--;
             if (n1==n2){
                 System.out.println("Acertaste");
+                break;
             }else{
                 System.out.println("No acertaste, te quedan " + vidas + " vidas");
             }
