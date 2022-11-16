@@ -14,9 +14,9 @@ public class Juego {
                 System.out.println("Acertaste");
                 break;
             } else if (n1 > n2) {
-                System.out.println("El número es mayor");
+                System.out.println("no acertaste el número es mayor");
             } else {
-                System.out.println("El número es menor");
+                System.out.println("no acertaste el número es menor");
             }
     }
 
