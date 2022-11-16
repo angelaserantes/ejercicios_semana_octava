@@ -19,7 +19,7 @@ public class Ejercicio6 {
                 System.out.println("No acertaste, te quedan " + vidas + " vidas");
             }
         }
-        System.out.println("Has perdido, el número era " + n1);
+        System.out.println("El número era " + n1);
     }
 
     public static void main(String[] args) {
