@@ -9,11 +9,11 @@ public class Ejercicio1 {
         Scanner entrada = new Scanner(System.in);
         Scanner entrada1 = new Scanner(System.in);
 
-        System.out.println("¿Cuantas notas va a introducir?");
+        System.out.println("¿Cuantas notas académicas va a introducir?");
         n = entrada.nextInt();
         for (int i = 0; i < n; i++) {
 
-            System.out.println("Introduzca las notas");
+            System.out.println("Introduzca sus notas");
             notas[i] = entrada1.nextInt();
         }
     }
